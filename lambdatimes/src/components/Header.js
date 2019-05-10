@@ -22,7 +22,6 @@ const HeaderSpanDate = styled.span`
   font-size: 11px;
   font-weight: bold;
   letter-spacing: 1px;
-
   margin-left: 25px;
   flex: 1;
 `;
@@ -41,7 +40,6 @@ const HeaderSpanTemp = styled.span`
   font-size: 11px;
   font-weight: bold;
   letter-spacing: 1px;
-
   text-align: right;
   margin-right: 25px;
   flex: 1;
@@ -50,7 +48,7 @@ const HeaderSpanTemp = styled.span`
 const Header = () => {
   return (
     <HeaderDiv>
-      <HeaderSpanDate>MARCH 32, 2018</HeaderSpanDate>
+      <HeaderSpanDate>MAY 10, 2019</HeaderSpanDate>
       <HeaderH1>Lambda Times</HeaderH1>
       <HeaderSpanTemp>98°</HeaderSpanTemp>
     </HeaderDiv>
