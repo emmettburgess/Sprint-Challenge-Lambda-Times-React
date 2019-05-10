@@ -29,9 +29,13 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+        They let components communicate with each other. A parent shares it's prop values to the child so it can use the value in its own functions.
 - [ ] Describe a life-cycle event in React?
+        A component begins when it's mounted and goes through events until it's unmounted and destroyed
 - [ ] Explain the details of a Higher Order Component?
+        A HOC reuses component logic from existing components. They take existing components and return new components.
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+        CSS stylesheet, inline styling, styled components
 
 ## Project Setup
 
